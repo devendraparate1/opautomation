@@ -1,4 +1,14 @@
-image: python
-script:
- - python helloworld.py
- - echo "Build has been completed."
+<!DOCTYPE HTML>
+<html>
+<body>
+
+  <p>Header...</p>
+
+  <script>
+    alert('Hello, World!')
+  </script>
+
+  <p>...Footer</p>
+
+</body>
+</html>
