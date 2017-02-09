@@ -1,4 +1,6 @@
-image: python
-script:
- - python helloworld.py
- - echo "Build has been completed."
+build:
+  image: golang
+  commands:
+    - go get
+    - go build
+    - go test
